@@ -1,0 +1,29 @@
+# Large data files (not tracked; rebuild locally via src/powerlifting_cohort/ingest.py, see README)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS and editor cruft
+.DS_Store
+.Rhistory
+.Rproj.user
+*.swp
+
+# Local archives and loose images not part of the project
+*.zip
+IMG_*.jpg
